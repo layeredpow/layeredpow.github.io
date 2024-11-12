@@ -1,0 +1,42 @@
+#particles-js {
+  pointer-events: none;
+}
+
+/* Small screen */
+
+.hero-header {
+  font-size: 48px;
+}
+
+.about-header {
+  font-size: 24px;
+}
+
+/* Medium screen */
+
+@media (min-width: 768px) {
+  .hero-header {
+    font-size: 64px;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-paragraph {
+    width: 66%;
+  }
+}
+
+@media (min-width: 768px) {
+  .about-header {
+    font-size: 32px;
+  }
+}
+
+/* Large screen */
+
+@media (min-width: 992px) {
+  .hero-header {
+    font-size: 88px;
+  }
+}
+
